@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    font-size: 16px;
+}
+
+header { 
+    text-align: center;
+    font-size: 2em;
+    height: 10rem;
+    background-color: lightgoldenrodyellow;
+}
+
+header > nav > a {
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    padding: 2em;
+}
+
+section {
+    margin: auto;
+    text-align: center;
+}
+
+article {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid green;
+    margin: 5em 10em;
+}
+
+article > p {
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    margin: 2em;
+}
+
+#childhood {
+    text-align: center;
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+#read-more { 
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.5em;
+    color: Green;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    font-size: 2em;
+    padding: 3em;
+}
