@@ -11,15 +11,22 @@ body {
 header { 
     text-align: center;
     font-size: 2em;
-    height: 10rem;
     background-color: lightgoldenrodyellow;
+    color: darkorchid;
+    text-decoration: none;
 }
 
-header > nav > a {
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    flex-wrap: wrap;
+    
+}
+
+a {
     text-decoration: none;
-    display: inline-block;
-    width: 20%;
-    padding: 2em;
 }
 
 section {
@@ -45,7 +52,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 img {
@@ -63,7 +70,7 @@ img {
 #read-more { 
     text-decoration: none;
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
     color: Green;
     font-weight: 600;
 }
